@@ -19,6 +19,38 @@
 
 #import "CanvasHTML.h"
 
+static const char inp[] =
+"<html>"
+"<head><title>Test</title></head>"
+"<body id = 'ida'>"
+"<div id = 'id1' class = 'class1'>"
+"<a id = 'aid' class = 'aclass' href = 'ahref'>这是第一条语句</a>"
+"<a class = 'aclass'>这是第二条语句</a>"
+"<a>这是第三条语句</a>"
+"<a>这是第四条语句</a>"
+"<p id = 'aid' class = 'aclass' href = 'ahref'>这是第五条语句</p>"
+"</div>"
+
+"<div id = 'id2' class = 'class2'>"
+"<div class = 'b'>"
+"<div>"
+"<p>html解析模块</p>"
+"</div>"
+"</div>"
+"<div class = 'a'>"
+"<p>html解析模块</p>"
+"</div>"
+"</div>"
+
+"<div id = 'id3' class = 'class3'>"
+"<a>这是第五条语句</a>"
+"</div>"
+"<div class = 'class3'>"
+"<a>这是第六条语句</a>"
+"</div>"
+
+"</body>"
+"</html>";
 
 @interface HomeViewController () <UIWebViewDelegate>
 
@@ -36,39 +68,6 @@
 }
 
 - (void)test3 {
-    const char inp[] =
-    "<html>"
-    "<head><title>Test</title></head>"
-    "<body id = 'ida'>"
-    "<div id = 'id1' class = 'class1'>"
-    "<a id = 'aid' class = 'aclass' href = 'ahref'>这是第一条语句</a>"
-    "<a class = 'aclass'>这是第二条语句</a>"
-    "<a>这是第三条语句</a>"
-    "<a>这是第四条语句</a>"
-    "<p id = 'aid' class = 'aclass' href = 'ahref'>这是第五条语句</p>"
-    "</div>"
-    
-    "<div id = 'id2' class = 'class2'>"
-    "<div class = 'b'>"
-    "<div>"
-    "<p>html解析模块</p>"
-    "</div>"
-    "</div>"
-    "<div class = 'a'>"
-    "<p>html解析模块</p>"
-    "</div>"
-    "</div>"
-    
-    "<div id = 'id3' class = 'class3'>"
-    "<a>这是第五条语句</a>"
-    "</div>"
-    "<div class = 'class3'>"
-    "<a>这是第六条语句</a>"
-    "</div>"
-    
-    "</body>"
-    "</html>";
-    
     
      xmlDoc *doc = xmlParseMemory(inp, sizeof(inp)-1);
      xmlXPathContext *ctx = xmlXPathNewContext(doc);
@@ -156,38 +155,7 @@
 }
 
 - (void)test2 {
-    const char inp[] =
-    "<html>"
-        "<head><title>Test</title></head>"
-        "<body>"
-            "<div id = 'id1' class = 'class1'>"
-                "<a id = 'aid' class = 'aclass' href = 'ahref'>这是第一条语句</a>"
-                "<a class = 'aclass'>这是第二条语句</a>"
-                "<a id = 'abid' class = 'aclass' href = 'ahref'>这是第三条语句</a>"
-                "<a>这是第四条语句</a>"
-                "<p id = 'aaid' class = 'aclass' href = 'ahref'>这是第五条语句</p>"
-            "</div>"
     
-            "<div id = 'id2' class = 'class2'>"
-                "<div class = 'class3'>"
-                    "<div>"
-                        "<p>html解析模块</p>"
-                    "</div>"
-                "</div>"
-                "<div class = 'a'>"
-                    "<p>html解析模块</p>"
-                "</div>"
-            "</div>"
-    
-            "<div id = 'id3' class = 'class3'>"
-                "<a>这是第五条语句</a>"
-            "</div>"
-            "<div class = 'class3'>"
-                "<a>这是第六条语句</a>"
-            "</div>"
-    
-        "</body>"
-    "</html>";
     /** Ralationship **/
     // html
     NSString *code = [[NSString alloc] initWithUTF8String:inp];
