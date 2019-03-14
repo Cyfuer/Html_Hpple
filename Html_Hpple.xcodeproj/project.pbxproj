@@ -16,8 +16,16 @@
 		3B6C55651717A3E00076AD02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C55641717A3E00076AD02 /* Default.png */; };
 		3B6C55671717A3E00076AD02 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C55661717A3E00076AD02 /* Default@2x.png */; };
 		3B6C55691717A3E00076AD02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C55681717A3E00076AD02 /* Default-568h@2x.png */; };
-		3B6C556C1717A3E00076AD02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C556B1717A3E00076AD02 /* ViewController.m */; };
-		3B6C556F1717A3E00076AD02 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C556D1717A3E00076AD02 /* ViewController.xib */; };
+		3B6C556C1717A3E00076AD02 /* ExpatiationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C556B1717A3E00076AD02 /* ExpatiationViewController.m */; };
+		3B6C556F1717A3E00076AD02 /* ExpatiationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C556D1717A3E00076AD02 /* ExpatiationViewController.xib */; };
+		3B6C557C1717A43C0076AD02 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C55771717A43C0076AD02 /* TFHpple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3B6C557D1717A43C0076AD02 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C55791717A43C0076AD02 /* TFHppleElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3B6C557E1717A43C0076AD02 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C557B1717A43C0076AD02 /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3B6C55831717A6130076AD02 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C55821717A6130076AD02 /* HomeViewController.m */; };
+		D51196A41DE9B4710063904F /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D51196A31DE9B4710063904F /* libxml2.2.tbd */; };
+		D51196A71DE9E1C40063904F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D51196A61DE9E1C40063904F /* Test.m */; };
+		EF0DCAD21DF14D00003D3743 /* CanvasNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0DCAD11DF14D00003D3743 /* CanvasNode.m */; };
+		EFFF995F1DEE7D5A00192C93 /* CanvasHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFF995E1DEE7D5A00192C93 /* CanvasHTML.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +42,24 @@
 		3B6C55641717A3E00076AD02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3B6C55661717A3E00076AD02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3B6C55681717A3E00076AD02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3B6C556A1717A3E00076AD02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B6C556B1717A3E00076AD02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B6C556E1717A3E00076AD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3B6C556A1717A3E00076AD02 /* ExpatiationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpatiationViewController.h; sourceTree = "<group>"; };
+		3B6C556B1717A3E00076AD02 /* ExpatiationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpatiationViewController.m; sourceTree = "<group>"; };
+		3B6C556E1717A3E00076AD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExpatiationViewController.xib; sourceTree = "<group>"; };
+		3B6C55761717A43C0076AD02 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		3B6C55771717A43C0076AD02 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		3B6C55781717A43C0076AD02 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		3B6C55791717A43C0076AD02 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		3B6C557A1717A43C0076AD02 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		3B6C557B1717A43C0076AD02 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		3B6C55811717A6130076AD02 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3B6C55821717A6130076AD02 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D51196A31DE9B4710063904F /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		D51196A51DE9E1C40063904F /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		D51196A61DE9E1C40063904F /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		EF0DCAD01DF14D00003D3743 /* CanvasNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasNode.h; sourceTree = "<group>"; };
+		EF0DCAD11DF14D00003D3743 /* CanvasNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasNode.m; sourceTree = "<group>"; };
+		EFFF995D1DEE7D5A00192C93 /* CanvasHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasHTML.h; sourceTree = "<group>"; };
+		EFFF995E1DEE7D5A00192C93 /* CanvasHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasHTML.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51196A41DE9B4710063904F /* libxml2.2.tbd in Frameworks */,
 				3B6C55531717A3E00076AD02 /* UIKit.framework in Frameworks */,
 				3B6C55551717A3E00076AD02 /* Foundation.framework in Frameworks */,
 				3B6C55571717A3E00076AD02 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +97,7 @@
 		3B6C55511717A3E00076AD02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D51196A31DE9B4710063904F /* libxml2.2.tbd */,
 				3B6C55521717A3E00076AD02 /* UIKit.framework */,
 				3B6C55541717A3E00076AD02 /* Foundation.framework */,
 				3B6C55561717A3E00076AD02 /* CoreGraphics.framework */,
@@ -83,11 +108,15 @@
 		3B6C55581717A3E00076AD02 /* Html_Hpple */ = {
 			isa = PBXGroup;
 			children = (
+				EFFF995C1DEE7C8500192C93 /* CanvasHtml */,
+				3B6C55751717A3F80076AD02 /* hpple */,
 				3B6C55611717A3E00076AD02 /* AppDelegate.h */,
 				3B6C55621717A3E00076AD02 /* AppDelegate.m */,
-				3B6C556A1717A3E00076AD02 /* ViewController.h */,
-				3B6C556B1717A3E00076AD02 /* ViewController.m */,
-				3B6C556D1717A3E00076AD02 /* ViewController.xib */,
+				3B6C55811717A6130076AD02 /* HomeViewController.h */,
+				3B6C55821717A6130076AD02 /* HomeViewController.m */,
+				3B6C556A1717A3E00076AD02 /* ExpatiationViewController.h */,
+				3B6C556B1717A3E00076AD02 /* ExpatiationViewController.m */,
+				3B6C556D1717A3E00076AD02 /* ExpatiationViewController.xib */,
 				3B6C55591717A3E00076AD02 /* Supporting Files */,
 			);
 			path = Html_Hpple;
@@ -105,6 +134,32 @@
 				3B6C55681717A3E00076AD02 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B6C55751717A3F80076AD02 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				3B6C55761717A43C0076AD02 /* TFHpple.h */,
+				3B6C55771717A43C0076AD02 /* TFHpple.m */,
+				3B6C55781717A43C0076AD02 /* TFHppleElement.h */,
+				3B6C55791717A43C0076AD02 /* TFHppleElement.m */,
+				3B6C557A1717A43C0076AD02 /* XPathQuery.h */,
+				3B6C557B1717A43C0076AD02 /* XPathQuery.m */,
+				D51196A51DE9E1C40063904F /* Test.h */,
+				D51196A61DE9E1C40063904F /* Test.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		EFFF995C1DEE7C8500192C93 /* CanvasHtml */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF995D1DEE7D5A00192C93 /* CanvasHTML.h */,
+				EFFF995E1DEE7D5A00192C93 /* CanvasHTML.m */,
+				EF0DCAD01DF14D00003D3743 /* CanvasNode.h */,
+				EF0DCAD11DF14D00003D3743 /* CanvasNode.m */,
+			);
+			path = CanvasHtml;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +190,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = com.wangan;
+				TargetAttributes = {
+					3B6C554E1717A3E00076AD02 = {
+						DevelopmentTeam = F6WZCKAYK2;
+					};
+				};
 			};
 			buildConfigurationList = 3B6C554A1717A3E00076AD02 /* Build configuration list for PBXProject "Html_Hpple" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -162,7 +222,7 @@
 				3B6C55651717A3E00076AD02 /* Default.png in Resources */,
 				3B6C55671717A3E00076AD02 /* Default@2x.png in Resources */,
 				3B6C55691717A3E00076AD02 /* Default-568h@2x.png in Resources */,
-				3B6C556F1717A3E00076AD02 /* ViewController.xib in Resources */,
+				3B6C556F1717A3E00076AD02 /* ExpatiationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,9 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFFF995F1DEE7D5A00192C93 /* CanvasHTML.m in Sources */,
 				3B6C555F1717A3E00076AD02 /* main.m in Sources */,
+				D51196A71DE9E1C40063904F /* Test.m in Sources */,
 				3B6C55631717A3E00076AD02 /* AppDelegate.m in Sources */,
-				3B6C556C1717A3E00076AD02 /* ViewController.m in Sources */,
+				3B6C556C1717A3E00076AD02 /* ExpatiationViewController.m in Sources */,
+				3B6C557C1717A43C0076AD02 /* TFHpple.m in Sources */,
+				3B6C557D1717A43C0076AD02 /* TFHppleElement.m in Sources */,
+				3B6C557E1717A43C0076AD02 /* XPathQuery.m in Sources */,
+				3B6C55831717A6130076AD02 /* HomeViewController.m in Sources */,
+				EF0DCAD21DF14D00003D3743 /* CanvasNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +257,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3B6C556D1717A3E00076AD02 /* ViewController.xib */ = {
+		3B6C556D1717A3E00076AD02 /* ExpatiationViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3B6C556E1717A3E00076AD02 /* en */,
 			);
-			name = ViewController.xib;
+			name = ExpatiationViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,8 +327,10 @@
 		3B6C55731717A3E00076AD02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = F6WZCKAYK2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Html_Hpple/Html_Hpple-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDK_DIR}\"/usr/include/libxml2";
 				INFOPLIST_FILE = "Html_Hpple/Html_Hpple-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -271,8 +340,10 @@
 		3B6C55741717A3E00076AD02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = F6WZCKAYK2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Html_Hpple/Html_Hpple-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDK_DIR}\"/usr/include/libxml2";
 				INFOPLIST_FILE = "Html_Hpple/Html_Hpple-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -298,6 +369,7 @@
 				3B6C55741717A3E00076AD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

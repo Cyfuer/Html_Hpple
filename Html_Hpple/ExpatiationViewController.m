@@ -6,13 +6,13 @@
 //  Copyright (c) 2013年 com.wangan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ExpatiationViewController.h"
 
-@interface ViewController ()
+@interface ExpatiationViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ExpatiationViewController
 
 - (void)viewDidLoad
 {
@@ -23,7 +23,7 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end

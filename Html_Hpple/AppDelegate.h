@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class ExpatiationViewController;
+@class HomeViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) ExpatiationViewController *viewController;
+
+@property (strong, nonatomic) HomeViewController *homeViewcontroller;
 
 @end

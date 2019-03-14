@@ -8,7 +8,11 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "ExpatiationViewController.h"
+
+#import "HomeViewController.h"
+#import "Test.h"
+
 
 @implementation AppDelegate
 
@@ -16,8 +20,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    //self.viewController = [[ExpatiationViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.homeViewcontroller=[[HomeViewController alloc]init];
+    
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:self.homeViewcontroller];
+    
+    
+    Test *b = [[Test alloc] init];
+    NSLog(@"%@",b.a.name);
+    NSLog(@"%@",b.a.a.name);
+    NSLog(@"%@",b.a.a.a.name);
+    NSLog(@"%@",b.a.a.a.a.name);
+    
+    
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }
